@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0810"/>
+      <stop offset="1" stop-color="#060508"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff44d6"/>
+      <stop offset="1" stop-color="#7b2bff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0" stop-color="#ff00c8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff00c8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- bolt mark -->
+  <g transform="translate(120 120)">
+    <rect x="0" y="0" width="150" height="150" rx="34" fill="url(#bolt)"/>
+    <path d="M88 18 L44 86 L74 86 L62 132 L116 58 L84 58 Z" fill="#ffffff"/>
+  </g>
+
+  <text x="120" y="360" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="118" font-weight="700" fill="#f7f5fb" letter-spacing="-2">VOLTAGE</text>
+  <text x="124" y="424" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="40" font-weight="500" fill="#ff44d6" letter-spacing="8">DIGITAL EXPERIENCE STUDIO</text>
+
+  <text x="120" y="520" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="400" fill="#b3a9c4">We build electric digital products — charged with color, motion &amp; purpose.</text>
+
+  <line x1="120" y1="560" x2="1080" y2="560" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="120" y="600" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="600" fill="#8a7f9c" letter-spacing="2">hello@voltage.studio</text>
+  <g transform="translate(1020 566)">
+    <rect x="0" y="0" width="60" height="60" rx="16" fill="none" stroke="#ff00c8" stroke-width="3"/>
+    <path d="M36 14 L20 34 L32 34 L28 46 L46 26 L34 26 Z" fill="#ff00c8"/>
+  </g>
+</svg>
